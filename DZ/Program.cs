@@ -49,17 +49,17 @@
 
 
             //zad5
-            Character voin = new Character(150, 30);
-            Console.WriteLine($"Воин - Здоровье: {voin.Health}, Мана: {voin.Mana}");
-            voin.Attack();
+            //Character voin = new Character(150, 30);
+            //Console.WriteLine($"Воин - Здоровье: {voin.Health}, Мана: {voin.Mana}");
+            //voin.Attack();
 
-            Character mag = new Character(80, 120);
-            Console.WriteLine($"Маг - Здоровье: {mag.Health}, Мана: {mag.Mana}");
-            mag.Attack();
+            //Character mag = new Character(80, 120);
+            //Console.WriteLine($"Маг - Здоровье: {mag.Health}, Мана: {mag.Mana}");
+            //mag.Attack();
 
-            Character luchnik = new Character(100, 60);
-            Console.WriteLine($"Лучник - Здоровье: {luchnik.Health}, Мана: {luchnik.Mana}");
-            luchnik.Attack();
+            //Character luchnik = new Character(100, 60);
+            //Console.WriteLine($"Лучник - Здоровье: {luchnik.Health}, Мана: {luchnik.Mana}");
+            //luchnik.Attack();
 
 
         }
