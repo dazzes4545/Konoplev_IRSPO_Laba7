@@ -12,13 +12,50 @@
             //book2.PrintInfo();
 
             //zad2
-            BankAccount account = new BankAccount("1234567890");
+            //BankAccount account = new BankAccount("1234567890");
 
-            account.Deposit(1000);
+            //account.Deposit(1000);
 
-            account.Withdraw(500);
+            //account.Withdraw(1500);
 
-            account.PrintBalance();
+            //account.PrintBalance();
+
+            //zad3
+            //Car car = new Car("Tesla Model S", 250);
+
+            //car.Accelerate(120);
+
+            //car.Brake();
+
+            //zad4
+            //Dice dice6 = new Dice();
+            //Dice dice12 = new Dice(12);
+
+            //Console.Write("6-гранный кубик: ");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.Write(dice6.Roll()+" ");
+            //}
+            //Console.WriteLine();
+
+            //Console.Write("12-гранный кубик: ");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.Write(dice12.Roll()+" ");
+            //}
+
+            //zad5
+            Character warrior = new Character(150, 30);
+            Console.WriteLine($"Воин - Здоровье: {warrior.Health}, Мана: {warrior.Mana}");
+            warrior.Attack();
+
+            Character mage = new Character(80, 120);
+            Console.WriteLine($"Маг - Здоровье: {mage.Health}, Мана: {mage.Mana}");
+            mage.Attack();
+
+            Character archer = new Character(100, 60);
+            Console.WriteLine($"Лучник - Здоровье: {archer.Health}, Мана: {archer.Mana}");
+            archer.Attack();
         }
     }
 }
