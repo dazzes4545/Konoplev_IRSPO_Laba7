@@ -11,6 +11,7 @@
             //Book book2 = new Book("Война и мир", "Толстой", 1869, true);
             //book2.PrintInfo();
 
+
             //zad2
             //BankAccount account = new BankAccount("1234567890");
 
@@ -20,12 +21,14 @@
 
             //account.PrintBalance();
 
+
             //zad3
             //Car car = new Car("Tesla Model S", 250);
 
             //car.Accelerate(120);
 
             //car.Brake();
+
 
             //zad4
             //Dice dice6 = new Dice();
@@ -44,18 +47,21 @@
             //    Console.Write(dice12.Roll()+" ");
             //}
 
+
             //zad5
-            Character warrior = new Character(150, 30);
-            Console.WriteLine($"Воин - Здоровье: {warrior.Health}, Мана: {warrior.Mana}");
-            warrior.Attack();
+            Character voin = new Character(150, 30);
+            Console.WriteLine($"Воин - Здоровье: {voin.Health}, Мана: {voin.Mana}");
+            voin.Attack();
 
-            Character mage = new Character(80, 120);
-            Console.WriteLine($"Маг - Здоровье: {mage.Health}, Мана: {mage.Mana}");
-            mage.Attack();
+            Character mag = new Character(80, 120);
+            Console.WriteLine($"Маг - Здоровье: {mag.Health}, Мана: {mag.Mana}");
+            mag.Attack();
 
-            Character archer = new Character(100, 60);
-            Console.WriteLine($"Лучник - Здоровье: {archer.Health}, Мана: {archer.Mana}");
-            archer.Attack();
+            Character luchnik = new Character(100, 60);
+            Console.WriteLine($"Лучник - Здоровье: {luchnik.Health}, Мана: {luchnik.Mana}");
+            luchnik.Attack();
+
+
         }
     }
 }
