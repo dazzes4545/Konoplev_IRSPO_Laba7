@@ -12,13 +12,20 @@
             //book2.PrintInfo();
 
             //zad2
-            BankAccount account = new BankAccount("1234567890");
+            //BankAccount account = new BankAccount("1234567890");
 
-            account.Deposit(1000);
+            //account.Deposit(1000);
 
-            account.Withdraw(500);
+            //account.Withdraw(1500);
 
-            account.PrintBalance();
+            //account.PrintBalance();
+
+            //zad3
+            Car car = new Car("Tesla Model S", 250);
+
+            car.Accelerate(120);
+
+            car.Brake();
         }
     }
 }
